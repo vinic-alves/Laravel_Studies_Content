@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+@extends('layouts.main')
 
-        <link rel="stylesheet" href="/css/styles.css">
-        <script src="/js/scripts.js"></script>
-        
-    </head>
-    <body>
+@section('title', 'Show Events')
 
+@section('content')
+
+        <img src="/img/shows.jpg" alt="Live show in a Crownd place">
         <h1>Algum titulo</h1>
         @if(10 > 5)
             <p>A condição é true</p>
@@ -47,7 +41,6 @@
 
         @endphp
 
-        
+@endsection
 
-    </body>
-</html>
+        
